@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7E15B5E1E0A2A5300A32964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15B5D1E0A2A5300A32964 /* main.m */; };
+		D7E15B611E0A2A5300A32964 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15B601E0A2A5300A32964 /* AppDelegate.m */; };
+		D7E15B641E0A2A5300A32964 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15B631E0A2A5300A32964 /* ViewController.m */; };
+		D7E15B671E0A2A5300A32964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E15B651E0A2A5300A32964 /* Main.storyboard */; };
+		D7E15B691E0A2A5300A32964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E15B681E0A2A5300A32964 /* Assets.xcassets */; };
+		D7E15B6C1E0A2A5300A32964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E15B6A1E0A2A5300A32964 /* LaunchScreen.storyboard */; };
+		D7E15B771E0A2A5300A32964 /* GeocoderAndReverseReocoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15B761E0A2A5300A32964 /* GeocoderAndReverseReocoderTests.m */; };
+		D7E15B821E0A2A5300A32964 /* GeocoderAndReverseReocoderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15B811E0A2A5300A32964 /* GeocoderAndReverseReocoderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7E15B731E0A2A5300A32964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7E15B511E0A2A5300A32964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7E15B581E0A2A5300A32964;
+			remoteInfo = GeocoderAndReverseReocoder;
+		};
+		D7E15B7E1E0A2A5300A32964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7E15B511E0A2A5300A32964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7E15B581E0A2A5300A32964;
+			remoteInfo = GeocoderAndReverseReocoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7E15B591E0A2A5300A32964 /* GeocoderAndReverseReocoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeocoderAndReverseReocoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E15B5D1E0A2A5300A32964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7E15B5F1E0A2A5300A32964 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7E15B601E0A2A5300A32964 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7E15B621E0A2A5300A32964 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7E15B631E0A2A5300A32964 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7E15B661E0A2A5300A32964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7E15B681E0A2A5300A32964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7E15B6B1E0A2A5300A32964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7E15B6D1E0A2A5300A32964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E15B721E0A2A5300A32964 /* GeocoderAndReverseReocoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeocoderAndReverseReocoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E15B761E0A2A5300A32964 /* GeocoderAndReverseReocoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeocoderAndReverseReocoderTests.m; sourceTree = "<group>"; };
+		D7E15B781E0A2A5300A32964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E15B7D1E0A2A5300A32964 /* GeocoderAndReverseReocoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeocoderAndReverseReocoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E15B811E0A2A5300A32964 /* GeocoderAndReverseReocoderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeocoderAndReverseReocoderUITests.m; sourceTree = "<group>"; };
+		D7E15B831E0A2A5300A32964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7E15B561E0A2A5300A32964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E15B6F1E0A2A5300A32964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E15B7A1E0A2A5300A32964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7E15B501E0A2A5300A32964 = {
+			isa = PBXGroup;
+			children = (
+				D7E15B5B1E0A2A5300A32964 /* GeocoderAndReverseReocoder */,
+				D7E15B751E0A2A5300A32964 /* GeocoderAndReverseReocoderTests */,
+				D7E15B801E0A2A5300A32964 /* GeocoderAndReverseReocoderUITests */,
+				D7E15B5A1E0A2A5300A32964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E15B5A1E0A2A5300A32964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7E15B591E0A2A5300A32964 /* GeocoderAndReverseReocoder.app */,
+				D7E15B721E0A2A5300A32964 /* GeocoderAndReverseReocoderTests.xctest */,
+				D7E15B7D1E0A2A5300A32964 /* GeocoderAndReverseReocoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7E15B5B1E0A2A5300A32964 /* GeocoderAndReverseReocoder */ = {
+			isa = PBXGroup;
+			children = (
+				D7E15B5F1E0A2A5300A32964 /* AppDelegate.h */,
+				D7E15B601E0A2A5300A32964 /* AppDelegate.m */,
+				D7E15B621E0A2A5300A32964 /* ViewController.h */,
+				D7E15B631E0A2A5300A32964 /* ViewController.m */,
+				D7E15B651E0A2A5300A32964 /* Main.storyboard */,
+				D7E15B681E0A2A5300A32964 /* Assets.xcassets */,
+				D7E15B6A1E0A2A5300A32964 /* LaunchScreen.storyboard */,
+				D7E15B6D1E0A2A5300A32964 /* Info.plist */,
+				D7E15B5C1E0A2A5300A32964 /* Supporting Files */,
+			);
+			path = GeocoderAndReverseReocoder;
+			sourceTree = "<group>";
+		};
+		D7E15B5C1E0A2A5300A32964 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7E15B5D1E0A2A5300A32964 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7E15B751E0A2A5300A32964 /* GeocoderAndReverseReocoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7E15B761E0A2A5300A32964 /* GeocoderAndReverseReocoderTests.m */,
+				D7E15B781E0A2A5300A32964 /* Info.plist */,
+			);
+			path = GeocoderAndReverseReocoderTests;
+			sourceTree = "<group>";
+		};
+		D7E15B801E0A2A5300A32964 /* GeocoderAndReverseReocoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7E15B811E0A2A5300A32964 /* GeocoderAndReverseReocoderUITests.m */,
+				D7E15B831E0A2A5300A32964 /* Info.plist */,
+			);
+			path = GeocoderAndReverseReocoderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7E15B581E0A2A5300A32964 /* GeocoderAndReverseReocoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E15B861E0A2A5300A32964 /* Build configuration list for PBXNativeTarget "GeocoderAndReverseReocoder" */;
+			buildPhases = (
+				D7E15B551E0A2A5300A32964 /* Sources */,
+				D7E15B561E0A2A5300A32964 /* Frameworks */,
+				D7E15B571E0A2A5300A32964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeocoderAndReverseReocoder;
+			productName = GeocoderAndReverseReocoder;
+			productReference = D7E15B591E0A2A5300A32964 /* GeocoderAndReverseReocoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7E15B711E0A2A5300A32964 /* GeocoderAndReverseReocoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E15B891E0A2A5300A32964 /* Build configuration list for PBXNativeTarget "GeocoderAndReverseReocoderTests" */;
+			buildPhases = (
+				D7E15B6E1E0A2A5300A32964 /* Sources */,
+				D7E15B6F1E0A2A5300A32964 /* Frameworks */,
+				D7E15B701E0A2A5300A32964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7E15B741E0A2A5300A32964 /* PBXTargetDependency */,
+			);
+			name = GeocoderAndReverseReocoderTests;
+			productName = GeocoderAndReverseReocoderTests;
+			productReference = D7E15B721E0A2A5300A32964 /* GeocoderAndReverseReocoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7E15B7C1E0A2A5300A32964 /* GeocoderAndReverseReocoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E15B8C1E0A2A5300A32964 /* Build configuration list for PBXNativeTarget "GeocoderAndReverseReocoderUITests" */;
+			buildPhases = (
+				D7E15B791E0A2A5300A32964 /* Sources */,
+				D7E15B7A1E0A2A5300A32964 /* Frameworks */,
+				D7E15B7B1E0A2A5300A32964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7E15B7F1E0A2A5300A32964 /* PBXTargetDependency */,
+			);
+			name = GeocoderAndReverseReocoderUITests;
+			productName = GeocoderAndReverseReocoderUITests;
+			productReference = D7E15B7D1E0A2A5300A32964 /* GeocoderAndReverseReocoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7E15B511E0A2A5300A32964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = JnKindle;
+				TargetAttributes = {
+					D7E15B581E0A2A5300A32964 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9T6M24N5BR;
+						ProvisioningStyle = Automatic;
+					};
+					D7E15B711E0A2A5300A32964 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9T6M24N5BR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7E15B581E0A2A5300A32964;
+					};
+					D7E15B7C1E0A2A5300A32964 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9T6M24N5BR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7E15B581E0A2A5300A32964;
+					};
+				};
+			};
+			buildConfigurationList = D7E15B541E0A2A5300A32964 /* Build configuration list for PBXProject "GeocoderAndReverseReocoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7E15B501E0A2A5300A32964;
+			productRefGroup = D7E15B5A1E0A2A5300A32964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7E15B581E0A2A5300A32964 /* GeocoderAndReverseReocoder */,
+				D7E15B711E0A2A5300A32964 /* GeocoderAndReverseReocoderTests */,
+				D7E15B7C1E0A2A5300A32964 /* GeocoderAndReverseReocoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7E15B571E0A2A5300A32964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E15B6C1E0A2A5300A32964 /* LaunchScreen.storyboard in Resources */,
+				D7E15B691E0A2A5300A32964 /* Assets.xcassets in Resources */,
+				D7E15B671E0A2A5300A32964 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E15B701E0A2A5300A32964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E15B7B1E0A2A5300A32964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7E15B551E0A2A5300A32964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E15B641E0A2A5300A32964 /* ViewController.m in Sources */,
+				D7E15B611E0A2A5300A32964 /* AppDelegate.m in Sources */,
+				D7E15B5E1E0A2A5300A32964 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E15B6E1E0A2A5300A32964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E15B771E0A2A5300A32964 /* GeocoderAndReverseReocoderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E15B791E0A2A5300A32964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E15B821E0A2A5300A32964 /* GeocoderAndReverseReocoderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7E15B741E0A2A5300A32964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7E15B581E0A2A5300A32964 /* GeocoderAndReverseReocoder */;
+			targetProxy = D7E15B731E0A2A5300A32964 /* PBXContainerItemProxy */;
+		};
+		D7E15B7F1E0A2A5300A32964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7E15B581E0A2A5300A32964 /* GeocoderAndReverseReocoder */;
+			targetProxy = D7E15B7E1E0A2A5300A32964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7E15B651E0A2A5300A32964 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E15B661E0A2A5300A32964 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7E15B6A1E0A2A5300A32964 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E15B6B1E0A2A5300A32964 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7E15B841E0A2A5300A32964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7E15B851E0A2A5300A32964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7E15B871E0A2A5300A32964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9T6M24N5BR;
+				INFOPLIST_FILE = GeocoderAndReverseReocoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdos.GeocoderAndReverseReocoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7E15B881E0A2A5300A32964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9T6M24N5BR;
+				INFOPLIST_FILE = GeocoderAndReverseReocoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdos.GeocoderAndReverseReocoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7E15B8A1E0A2A5300A32964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9T6M24N5BR;
+				INFOPLIST_FILE = GeocoderAndReverseReocoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdos.GeocoderAndReverseReocoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeocoderAndReverseReocoder.app/GeocoderAndReverseReocoder";
+			};
+			name = Debug;
+		};
+		D7E15B8B1E0A2A5300A32964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9T6M24N5BR;
+				INFOPLIST_FILE = GeocoderAndReverseReocoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdos.GeocoderAndReverseReocoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeocoderAndReverseReocoder.app/GeocoderAndReverseReocoder";
+			};
+			name = Release;
+		};
+		D7E15B8D1E0A2A5300A32964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9T6M24N5BR;
+				INFOPLIST_FILE = GeocoderAndReverseReocoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdos.GeocoderAndReverseReocoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeocoderAndReverseReocoder;
+			};
+			name = Debug;
+		};
+		D7E15B8E1E0A2A5300A32964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9T6M24N5BR;
+				INFOPLIST_FILE = GeocoderAndReverseReocoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdos.GeocoderAndReverseReocoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeocoderAndReverseReocoder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7E15B541E0A2A5300A32964 /* Build configuration list for PBXProject "GeocoderAndReverseReocoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E15B841E0A2A5300A32964 /* Debug */,
+				D7E15B851E0A2A5300A32964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E15B861E0A2A5300A32964 /* Build configuration list for PBXNativeTarget "GeocoderAndReverseReocoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E15B871E0A2A5300A32964 /* Debug */,
+				D7E15B881E0A2A5300A32964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7E15B891E0A2A5300A32964 /* Build configuration list for PBXNativeTarget "GeocoderAndReverseReocoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E15B8A1E0A2A5300A32964 /* Debug */,
+				D7E15B8B1E0A2A5300A32964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7E15B8C1E0A2A5300A32964 /* Build configuration list for PBXNativeTarget "GeocoderAndReverseReocoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E15B8D1E0A2A5300A32964 /* Debug */,
+				D7E15B8E1E0A2A5300A32964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7E15B511E0A2A5300A32964 /* Project object */;
+}
